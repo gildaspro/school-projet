@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculator</title>
+	<style type="text/css">
+		button{
+			width: 60px;
+			background: black;
+			color: white;
+			border-radius: 5px;
+			height: 50px;
+			margin-left:  20% auto;
+			font-weight: bolder;
+			font-size: 20px;
+		}
+		input{
+			box-sizing: border-box;
+			padding:20px;
+			width: 100%;
+			background: black;
+			color: white;
+			border-radius: 5px;
+			height: 50px;
+			font-weight: bolder;
+			font-size: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<table border="1px">
+<tr>
+	<td colspan="5">
+		<input type="text" value="" disabled="disabled" ="" id="result">
+    </td>  
+</tr>
+
+ <tr>
+ 	
+ 	<td><button onclick="seven();" value="7" id="seven">7</button></td>
+ 	<td><button onclick="eight();" value="8" id="eight">8</button></td>
+ 	<td><button onclick="nine();" value="9" id="nine">9</button></td>
+ 	<td><button onclick="plus();" value="+" id="plus">+</button></td>
+ 	<td><button onclick="minus();" value="-" id="minus">-</button></td>
+
+ </tr>
+ <tr>
+ 	<td><button onclick="five();" value="5" id="five">5</button></td>
+ 	<td><button onclick="six();" value="6" id="six">6</button></td>
+ 	<td><button onclick="four();" value="4" id="four">4</button></td>
+ 	<td><button onclick="times();" value="*" id="times">x</button></td>
+    <td><button onclick="poin();" value="." id="poin">.</button></td>
+    
+ 	
+ </tr>
+ <tr>
+ 	<td><button onclick="three();" value="3" id="three">3</button></td>
+ 	<td><button onclick="one();" value="1" id="one">1</button></td>
+ 	<td><button onclick="two();" value="2" id="two">2</button></td>
+ 	<td><button onclick="divide();" value="%" id="divide">/</button></td>
+    <td><button onclick="equal();" value="=" id="equal">=</button></td>    
+
+ </tr>
+ <tr colspan="3"> 	
+ 	<td><button onclick="zero();" value="0" id="zero">0</button></td>
+    <td><button onclick="c();" value="c" id="c">c</button></td>
+    <td><button onclick="sup();" value="<-" id="sup"><-</button></td>
+ </tr>
+</table>
+<script type="text/javascript">
+	function one(){
+		let x = document.getElementById('one').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function two(){
+		let x = document.getElementById('two').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function three(){
+		let x = document.getElementById('three').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function four(){
+		let x = document.getElementById('four').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function five(){
+		let x = document.getElementById('five').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function six(){
+		let x = document.getElementById('six').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function seven(){
+		let x = document.getElementById('seven').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function eight(){
+		let x = document.getElementById('eight').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function nine(){
+		let x = document.getElementById('nine').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function plus(){
+		let x = document.getElementById('plus').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function minus(){
+		let x = document.getElementById('minus').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function times(){
+		let x = document.getElementById('times').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}
+	function divide(){
+		let x = document.getElementById('divide').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}
+	function zero(){
+		let x = document.getElementById('zero').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function sup(){
+		document.getElementById('result').value ="  ";
+
+	}function poin(){
+		let x = document.getElementById('poin').value;
+		let val  = document.getElementById('result').value;
+		document.getElementById('result').value = val+x;
+	}function c(){
+		let valu = document.getElementById("result").value;
+		let val  = valu.length;
+		let va  = val-1;
+	    let valu = valu.subString(0,fin);
+	     document.getElementById("result").value = valu ;
+
+	}function equal(){
+		let x = document.getElementById('result').value;
+		let val  = eval(x);
+		document.getElementById("result").value = val;
+	}
+	
+</script>
+</body>
+</html>

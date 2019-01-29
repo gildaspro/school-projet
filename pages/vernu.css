@@ -1,0 +1,280 @@
+
+
+body{
+	text-align:center;
+	margin-top:  0% ;
+	background:#084b1e ;
+	background: -webkit-linear-gradient( #9dbc7a,#084b1e);
+	background: -moz-linear-gradient( #9dbc7a,#084b1e);
+	background:      linear-gradient( #9dbc7a,#084b1e);
+	font-style: italic; 
+	
+}
+ 
+.firstdiv{
+	 background-color: #033145;
+	width:90%;
+	height: 100%;
+	padding: 8%;
+	margin-left: -1%;
+}	
+
+
+
+.logo{
+	text-align: left;
+	display:inline-block;
+    border-top: 5px solid orange;
+ 	margin-left:-800px;
+	margin-top: -200px;
+	color: white;
+	word-spacing: 12px;
+	padding-top: 50px;
+	font-weight: lighter;
+	font-style: italic;
+
+
+}
+.headin4{
+	text-align: right;
+   margin-top:  -90px;
+   margin-right: 20px;
+   word-spacing:10px;
+   color: orange;
+   font-weight: bold;
+   font-size: 20px;
+   font-style: italic;
+  }
+  .seconddiv{
+  	
+  	background: #648880;
+	background: -webkit-linear-gradient(#648880, #293f50);
+	background: -moz-linear-gradient(#648880, #293f50);
+	background:      linear-gradient(#648880, #293f50);
+  }
+  .headin3{
+  	color: #05ab9f;
+
+  } 
+  a:hover{
+  	background-color: #05ab9f;
+  color:#a9b2b9;
+
+}
+a{
+	color:white;
+	 text-decoration: none;
+	 font-weight: bold;
+
+}
+
+
+
+.lien{
+    margin-top: -0px;
+	text-align: right;
+	word-spacing: 10px;
+	margin-right: 20px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+   font-style: italic;
+
+
+}
+h2{
+	font-size: 27px;
+	text-shadow: 6px;
+	text-transform: uppercase;
+	font-weight:bold; 
+	color:white;
+	font-style: italic;
+	letter-spacing:3px;
+
+}
+
+h5{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #033345;
+	font-weight: bold;
+	word-spacing: 3px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-style: italic;
+}
+.junior{
+	text-decoration: none;
+
+}
+
+ 
+.header4{
+	text-align: center;
+	color:#033145 ;
+	margin-bottom: 50px;
+	margin-top: 25px;
+	text-align: center;
+	font-weight: lighter;
+	font-style: italic;
+
+}
+ .rigister{
+ 	
+ 	
+ 	margin-top:5%;
+ 	margin-bottom:5%; 
+ 	padding: 15px 30px;
+ 	margin-left: 42%;
+ 	width: 100px;
+ 	font-size: 18px;
+ 	letter-spacing: 1px;
+ 	word-spacing: 3px;
+ 	border: 2px solid  #05ab9f;
+ 	box-shadow: 2px 2PX 2px 2px  rgb( 03,33,45, 1);
+ 	text-transform: uppercase;
+ 	font-weight: lighter;
+ 	font-style: italic;
+ 	
+ 	
+ }
+ .rigister a{
+
+ 	color: orange;
+ 	
+ }
+ p{
+ 	
+ 	color:grey;
+ 	font-size: 24px;
+ 	word-spacing: 3px;
+ 	letter-spacing:2px;
+ 	font-weight: lighter; 
+
+ 	
+
+ }
+ 
+
+section{
+	width: 110%;
+	display:block;
+	 height: 100%;
+     font-size:24px;
+	background-color: white;
+	margin-left: -1%;
+
+     
+     
+
+
+
+}
+.col-1-3{
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	margin:  5px;
+	font-size:16px;
+	
+
+
+
+	
+}
+.col-3-3{
+	display: inline-block;
+	width: 50%;
+	margin-bottom: 35px;
+	margin-left:100px;
+	font-size:24px;
+	margin-top: 35px;
+	padding: 8px;
+	background-color: ;
+	
+	padding-top: 50px;
+	border: 1px solid grey;
+
+
+	
+	
+}
+
+.col-3-3 p{
+	font-size: 14px;
+	margin-top: -50px;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    word-spacing: 6px;
+    letter-spacing: 2px;
+    padding: 20%;
+    background:#084b1e ;
+	background: -webkit-linear-gradient( #9dbc7a,#084b1e);
+	background: -moz-linear-gradient( #9dbc7a,#084b1e);
+	background:      linear-gradient( #9dbc7a,#084b1e); 
+	margin-left: -1%;
+ 
+	
+	
+}
+.mainfooter{
+  background-color: #033145;
+  margin-left: -22%;
+  margin-bottom: -22%;
+  margin-right: 18%;
+  padding: 60px;
+   
+ 
+  
+	
+	
+	}
+small{
+	
+	margin-left: -80%;
+	background:#084b1e ;
+	background: -webkit-linear-gradient( #9dbc7a,#084b1e);
+	background: -moz-linear-gradient( #9dbc7a,#084b1e);
+	background:      linear-gradient( #9dbc7a,#084b1e); 
+	 padding:10px;
+	 font-size: 26px;
+	 text-transform: uppercase;
+	 font-weight: lighter;
+	 font-style: italic;
+
+
+	 
+}
+.bottom{
+	height: 100%;
+	text-align: right;
+	margin-right: -10px;
+	margin-bottom:50px;
+	margin-top: 40px;
+	font-style: italic;
+	 
+	
+	
+}
+.bottom a{
+    background:#084b1e ;
+	background: -webkit-linear-gradient( #9dbc7a,#084b1e);
+	background: -moz-linear-gradient( #9dbc7a,#084b1e);
+	background:      linear-gradient( #9dbc7a,#084b1e); 
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
